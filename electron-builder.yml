@@ -23,8 +23,8 @@
 
     mac:
       target:
-        - zip
         - dmg
+        - zip
       category: public.app-category.tools
 
     win:
