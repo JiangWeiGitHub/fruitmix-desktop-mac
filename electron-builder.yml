@@ -22,7 +22,9 @@
           y: 150
 
     mac:
-      target: dmg
+      target:
+        - zip
+        - dmg
       category: public.app-category.tools
 
     win:
