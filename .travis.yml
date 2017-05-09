@@ -31,5 +31,5 @@ deploy:
   file: dist/testApp-1.0.0.dmg
   skip_cleanup: true
   on:
-    repo: JiangWeiGitHub/wisnucAssistant-mac
+    repo: JiangWeiGitHub/fruitmix-desktop-mac
     tags: true
