@@ -16,6 +16,6 @@ global.mediaPath = path.join(__dirname, 'media')
 global.downloadPath = path.join(__dirname, 'download')
 // global.cachePath = path.join(__dirname, 'cache')
 
-require('./builder/app')
+require('./build/app')
 
 
