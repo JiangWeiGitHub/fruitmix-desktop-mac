@@ -1,6 +1,6 @@
 {
   "name": "wisnuc",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "wisnuc",
   "author": "jiangwei <wei.jiang@winsuntech.cn>",
   "repository": "https://github.com/JiangWeiGitHub/fruitmix-desktop-mac",
@@ -10,7 +10,7 @@
     "start": "electron .",
     "devel": "nodemon --exec electron devel.js",
     "webpack": "webpack --watch --watch-poll",
-    "build": "babel node --out-dir build",
+    "build": "babel node --out-dir builder",
     "mocha": "mocha --compilers js:babel-core/register --recursive --sort",
     "devel2": "electron devel.js",
     "testCommand": "mocha ./test/testCommand.js --recursive --compilers js:babel-core/register"
